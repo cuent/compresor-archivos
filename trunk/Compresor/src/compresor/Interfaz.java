@@ -10,10 +10,7 @@
  */
 
 package compresor;
-
-import java.io.File;
 import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -180,7 +177,6 @@ public class Interfaz extends javax.swing.JFrame {
 
     // Validacion de los RadioButton para que solo se selecciones 1
     private void jtbComprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtbComprimirActionPerformed
-        
         if(jtbComprimir.isSelected())
             jtbDescomprimir.setSelected(false);
         else
