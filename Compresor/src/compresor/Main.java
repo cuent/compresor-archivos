@@ -18,7 +18,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Cargamos el LookAndFeel y Mostramos la ventana (JFrame)
         JFrame.setDefaultLookAndFeelDecorated(true);
         SubstanceLookAndFeel.setSkin("org.jvnet.substance.skin.RavenSkin");
         java.awt.EventQueue.invokeLater(new Runnable() {
